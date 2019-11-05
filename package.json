@@ -1,11 +1,23 @@
 {
   "name": "npm",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasZaia/project-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LucasZaia/project-node/issues"
+  },
+  "homepage": "https://github.com/LucasZaia/project-node#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.17.1"
+  }
 }
