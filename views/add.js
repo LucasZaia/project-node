@@ -1,9 +1,7 @@
 const mysql = require('mysql');
-const con = require('../services/conection');
+const con = require('../config/conection');
 const cons = mysql.createConnection(con);
 
-const cmsql = 'INSERT INTO testes(nome) VALUES ("teste")';
+var cmdsq = 'INSERT INTO testes(nome) VALUES ("jao")';
 
-cons.query(cmsql);
-
-cons.end();
+cons.query(cmdsq);
